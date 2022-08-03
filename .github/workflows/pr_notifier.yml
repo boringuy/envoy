@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748
     - name: Set up Python 3.8
-      uses: actions/setup-python@9c644ca2ab8e57ea0a487b5ec2f8290740378bfd
+      uses: actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5
       with:
         python-version: '3.8'
         architecture: 'x64'
